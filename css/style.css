@@ -1,0 +1,38 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+html{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Sono', sans-serif;
+  background: url('../img/math2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  margin-top: 10%;
+}
+.input {
+  margin: 5% 0% 0% 21%;
+}
+.button {
+  margin: 5% 0% 0% 36%;
+}
+#placeToSee{
+    margin: 6% 0% 0% 43%;
+    font-size: 38px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
